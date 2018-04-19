@@ -1,9 +1,9 @@
 # Sample of Pure-Data-Hybrid Ecs Approach 
 
-Istead of using GameObjectEntity which adds ObjectComponents to Entityes
+Istead of using GameObjectEntity which adds ObjectComponents to Entities
 
 it operates on pure IDataComonents 
-and usees GameObject-Wrapper-Systems that maintain GameObjects internally for rendering, phisics and collision detection 
+and uses GameObject-Wrapper-Systems that maintain GameObjects internally for rendering, phisics and collision detection 
 
 benefits of this aproach
 - It respaects data oriented design - data strictly sepatated form logic
